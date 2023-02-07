@@ -51,12 +51,7 @@
                         @guest
                         @else
                             {{-- menu dikiri --}}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('prodi.index') }}">
-                                    Prodi
-                                </a>
-                            </li>
-                          
+                            
                         @endguest
                     </ul>
 

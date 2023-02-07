@@ -84,9 +84,9 @@
         </div>
       </div>
 
-      {{-- <!-- Sidebar Menu -->
-      @include('layouts.includes.back.side')
-      <!-- /.sidebar-menu --> --}}
+      <!-- Sidebar Menu -->
+      @include('layouts.includes.backuser.side')
+      <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
   </aside>

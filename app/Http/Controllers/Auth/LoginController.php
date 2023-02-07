@@ -43,6 +43,6 @@ class LoginController extends Controller
         if($user->role == 'admin') {
             return redirect()->route('prodi.index');
         }
-        return redirect('/errors');
+        return redirect('/biodata');
     }
 }

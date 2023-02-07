@@ -21,7 +21,7 @@
         }
         .formbold-mb-5 .p {
             margin-bottom: 20px;
-           
+
         }
 
         .formbold-pt-3 {
@@ -132,7 +132,7 @@
             }
         }
 
-      
+
     </style>
 
 
@@ -171,7 +171,7 @@
 
 
 
-                              
+
                             <div class="flex flex-wrap formbold--mx-3">
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
@@ -181,9 +181,9 @@
                                         <div class="nav1">Gasal 2022-2023</div>
                                         <div class="nav2">Umum</div>
                                         <div class="nav3">01</div>
-                    
+
                                     </div>
-                                   
+
                                 </div>
 
                                 {{-- <table>
@@ -199,16 +199,16 @@
                                     </tr>
                                 </table> --}}
 
-                       
+
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> Kampus </label>
-                                       
+
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Kampus --</option>
                                             <option value="INABA BANDUNG">INABA BANDUNG</option>
                                             <option value="INABA JAKARTA">INABA JAKARTA</option>
-                                            
+
                                         </select>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> Pilih Program Studi * </label>
-                                       
+
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Program Studi --</option>
                                             <option value="Magister Manajemen">Magister Manajemen</option>
@@ -261,12 +261,12 @@
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> Pilih Kelas * </label>
-                                       
+
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Kelas --</option>
                                             <option value="Reguler Pagi">Reguler Pagi</option>
                                             <option value="Reguler Sore">Reguler Sore</option>
-                                            
+
                                         </select>
                                     </div>
                                 </div>
@@ -288,19 +288,19 @@
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> PIlih Status * </label>
-                                       
+
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Status  --</option>
-                                            <option value="volvo">Volvo</option>
-                                            <option value="saab">Saab</option>
-                                            <option value="mercedes">Mercedes</option>
-                                            <option value="audi">Audi</option>
+                                            <option value="volvo">Mahasiswa</option>
+                                            <option value="saab">Mahasiswa Baru</option>
+                                            {{-- <option value="mercedes">Maba</option>
+                                            <option value="audi">Audi</option> --}}
                                         </select>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- 
+                            <!--
       <div class="formbold-mb-5">
         <label for="guest" class="formbold-form-label">
           How many guest are you bringing?
@@ -324,7 +324,7 @@
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> Dari mana anda mendapatkan info INABA </label>
-                                       
+
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Referensi --</option>
                                             <option value="Google/Browsing">Google/Browsing</option>

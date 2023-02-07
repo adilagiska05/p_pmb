@@ -47,8 +47,13 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'isAdmin:admin']], f
 
 });
 
-Route::get('/errors', function () {
+Route::get('/admin_user', function () {
     return view(403);
+});
+
+
+Route::get('/biodata', function () {
+    return view('layouts.backuser.biodata');
 });
 
 

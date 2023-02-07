@@ -4,7 +4,7 @@
       <a href="/user" class="logo d-flex align-items-center">
         {{-- <img src="{{asset('assets/front/img/inaba.png ')}}" alt=""> --}}
 
-        <span>Universitas Indonesia Membangun</span>
+        <span>Universitas INABA</span>
       </a>
 
       <nav id="navbar" class="navbar">
