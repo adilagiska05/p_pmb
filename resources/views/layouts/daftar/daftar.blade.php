@@ -73,7 +73,7 @@
 				</div> -->
 	<!-- </div>
 		</nav>
-    banner 
+    banner
 		<div class="container section">
 			<div class="row">
 				<div class="col-lg-8 text-center mx-auto">
@@ -81,11 +81,11 @@
 					<p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p>
 					<div class="position-relative">
 					<input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"><i
-							class="ti-search search-icon"></i> 
+							class="ti-search search-icon"></i>
 				</div>
 			</div>
 		</div>
-	 /banner 
+	 /banner
 	</header>
 	 /header -->
 
@@ -111,7 +111,7 @@
 
 				<div class="col-lg-4 col-sm-6 mb-4">
 					<a href="jalur/form" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-						<p class="mb-0">Belum ada data</p>
+						<p class="mb-0">Data Belum DiSetting</p>
 					</a>
 				</div>
 
@@ -160,7 +160,7 @@
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-          </div> 
+          </div>
         </div>
       </div>
     </div> -->

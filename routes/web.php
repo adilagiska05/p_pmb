@@ -53,9 +53,27 @@ Route::get('/admin_user', function () {
 
 
 Route::get('/biodata', function () {
-    return view('layouts.backuser.biodata');
+    return view('layouts.backuser.biodata1');
 });
 
+Route::get('user', function () {
+    return view('layouts.user');
+});
+
+
+Route::get('daftar/jalur', function () {
+    return view('layouts.daftar.daftar');
+});
+
+
+Route::get('daftar/jalur/form', function () {
+    return view('layouts.daftar.form');
+});
+
+
+Route::get('try', function () {
+    return view('try');
+});
 
 // Route::get('coba_admin', function () {
 //     return view('admin');
@@ -80,21 +98,4 @@ Route::get('/biodata', function () {
 
 // });
 
-Route::get('user', function () {
-    return view('layouts.user');
-});
 
-
-Route::get('daftar/jalur', function () {
-    return view('layouts.daftar.daftar');
-});
-
-
-Route::get('daftar/jalur/form', function () {
-    return view('layouts.daftar.form');
-});
-
-
-Route::get('try', function () {
-    return view('try');
-});

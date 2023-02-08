@@ -72,6 +72,20 @@
             resize: none;
         }
 
+
+        .formbold-form-input1 {
+            width: 210%;
+            padding: 12px 24px;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+            background: white;
+            font-weight: 500;
+            font-size: 16px;
+            color: #6b7280;
+            outline: none;
+            resize: none;
+        }
+
         .formbold-form-input:focus {
             border-color: #6a64f1;
             box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
@@ -189,22 +203,13 @@
 
 
 
-
+                            <div class="formbold-mb-5">
+                                <b>BIODATA</b>
+                            </div>
                             <div class="flex flex-wrap formbold--mx-3">
 
 
-                                {{-- <table>
-                                    <tr>
-                                        <th class="labell">Periode Daftar</th>
-                                        <th class="label">Jalur</th>
-                                        <th class="label1">Gelombang</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="nav1">Gasal 2022-2023</td>
-                                        <td class="nav2">Umum</td>
-                                        <td class="nav3">01</td>
-                                    </tr>
-                                </table> --}}
+
 
 
                                 <div class="w-full sm:w-half formbold-px-3">
@@ -293,7 +298,7 @@
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> ALAMAT </label>
-                                        <textarea name="alamat" id="" cols="95" rows="3"></textarea>
+                                        <textarea name="alamat" id="" cols="110" rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -302,20 +307,6 @@
 
 
                             <div class="flex flex-wrap formbold--mx-3">
-
-
-                                {{-- <table>
-                                <tr>
-                                    <th class="labell">Periode Daftar</th>
-                                    <th class="label">Jalur</th>
-                                    <th class="label1">Gelombang</th>
-                                </tr>
-                                <tr>
-                                    <td class="nav1">Gasal 2022-2023</td>
-                                    <td class="nav2">Umum</td>
-                                    <td class="nav3">01</td>
-                                </tr>
-                            </table> --}}
 
 
                                 <div class="w-full sm:w-half formbold-px-3">
@@ -445,23 +436,195 @@
                                     </div>
                                 </div>
 
-                                {{-- <div>
-                                <button class="formbold-btn">Submit</button>
-                            </div> --}}
-                        </form>
-                        <hr />
-                    </div>
-                </div>
-            </div>
 
+
+                                <div class="formbold-mb-5">
+                                    <b>DATA ORANG TUA</b>
+                                </div>
+                                <div class="w-full sm:w-half formbold-px-3">
+
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> NAMA IBU </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input1" />
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="formbold-mb-5">
+                                    <label for="lName" class="formbold-form-label"> ALAMAT </label>
+                                    <textarea name="alamat" id="" cols="110" rows="3"></textarea>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> KELURAHAN </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> KECAMATAN </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> PROVINSI </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> KOTA / KABUPATEN </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> PEKERJAAN IBU </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> PEKERJAAN AYAH </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> NO HP </label>
+                                        <input type="number" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="formbold-mb-5">
+                                <b>DATA PENDIDIKAN</b>
+                            </div>
+
+                            <div class="w-full sm:w-half formbold-px-3">
+                                <div class="formbold-mb-5">
+                                    <input type="radio" name="fName" id="fName" placeholder=""
+                                        class="" />Lulusan SMA / SMK dan sejenisnya
+                                </div>
+                                <div>
+                                    <input type="radio" name="fName" id="fName" placeholder=""
+                                        class="" />Lanjutan
+                                    <input type="radio" name="fName" id="fName" placeholder=""
+                                        class="" />Transfer
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <b>DATA ASAL SEKOLAH</b><br><br>
+
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> NAMA SEKOLAH </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input1" />
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label">JENIS SEKOLAH</label>
+                                        <select name="cars" id="cars" class="formbold-form-input">
+                                            <option>Pilih</option>
+                                            <option value="NEGERI">NEGERI</option>
+                                            <option value="SWASTA">SWASTA</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> TAHUN LULUS </label>
+                                        <input type="number" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> JURUSAN </label>
+                                        <input type="text" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> NOMOR IJASAH </label>
+                                        <input type="number" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+                                <div class="w-full sm:w-half formbold-px-3">
+                                    <div class="formbold-mb-5">
+                                        <label for="lName" class="formbold-form-label"> NILAI UN </label>
+                                        <input type="number" name="fName" id="fName" placeholder=""
+                                            class="formbold-form-input" />
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <br><br>
+
+                            <button class="formbold-btn">Submit</button>
+                    </div>
+                    </form>
+                    <hr />
+                </div>
+
+
+
+
+            </div>
         </div>
-        <div class="rightcolumn">
-        </div>
+
+    </div>
+    <div class="rightcolumn"></div>
     </div>
 
-    <!-- <div class="footer">
-  <h2>Footer</h2>
-</div> -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
