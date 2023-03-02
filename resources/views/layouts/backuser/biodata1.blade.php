@@ -197,10 +197,6 @@
                             </div>
                             <div class="flex flex-wrap formbold--mx-3">
 
-
-
-
-
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
                                         <label for="lName" class="formbold-form-label"> NAMA LENGKAP </label>

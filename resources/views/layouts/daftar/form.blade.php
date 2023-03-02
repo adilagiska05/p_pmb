@@ -166,11 +166,8 @@
                     <!-- Author: FormBold Team -->
                     <!-- Learn More: https://formbold.com -->
                     <div class="formbold-form-wrapper">
-                        <form action="https://formbold.com/s/FORM_ID" method="POST">
-
-
-
-
+                        <form action="" method="POST">
+                            
 
                             <div class="flex flex-wrap formbold--mx-3">
                                 <div class="w-full sm:w-half formbold-px-3">
@@ -186,7 +183,7 @@
 
                                 </div>
 
-                                {{-- <table>
+                                <!-- <table>
                                     <tr>
                                         <th class="labell">Periode Daftar</th>
                                         <th class="label">Jalur</th>
@@ -197,12 +194,12 @@
                                         <td class="nav2">Umum</td>
                                         <td class="nav3">01</td>
                                     </tr>
-                                </table> --}}
+                                </table> -->
 
 
                                 <div class="w-full sm:w-half formbold-px-3">
                                     <div class="formbold-mb-5">
-                                        <label for="lName" class="formbold-form-label"> Kampus </label>
+                                        <label for="lName" class="formbold-form-label"> Kampus * </label>
 
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Kampus --</option>
@@ -291,10 +288,9 @@
 
                                         <select name="cars" id="cars" class="formbold-form-input">
                                             <option>-- Pilih Status  --</option>
-                                            <option value="volvo">Mahasiswa</option>
-                                            <option value="saab">Mahasiswa Baru</option>
-                                            {{-- <option value="mercedes">Maba</option>
-                                            <option value="audi">Audi</option> --}}
+                                            <option value="lanjutan">Lanjutan</option>
+                                            <option value="mahasiswa baru">Mahasiswa Baru</option>
+                                           
                                         </select>
                                     </div>
                                 </div>
