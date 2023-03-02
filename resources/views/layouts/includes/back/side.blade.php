@@ -17,12 +17,22 @@
                   <p>Prodi</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="{{ route('informasi.index') }}" class="nav-link">
                   <i class="far fa-love nav-icon"></i>
                   <p>Informasi</p>
                 </a>
+              </li> -->
+              
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <i class="far fa-love nav-icon"></i>
+                  <p>Biodata</p>
+                </a>
               </li>
+
+
+
               <li class="nav-item">
                 <a href="{{ route('pendaftar.index') }}" class="nav-link">
                   <i class="far fa-love nav-icon"></i>

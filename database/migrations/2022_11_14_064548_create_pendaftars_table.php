@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('rekomendasi');
             $table-> foreign('id_prodi')->references('id')->on('prodis');
             $table->bigInteger('id_prodi')->unsigned();
-            $table-> foreign('no_pendaftar')->references('id')->on('login_mhs_adms');
+            $table-> foreign('no_pendaftar')->references('id')->on('akun_mhs');
             $table->bigInteger('no_pendaftar')->unsigned();
             $table->timestamps();
         });

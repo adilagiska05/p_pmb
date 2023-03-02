@@ -156,11 +156,11 @@
 <body>
 
 
-    <div id="app">
+    <div id="app" >
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <h2>PMB UNIVERSITAS INABA</h2>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" align="right">
                     <a class="dropdown-item" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                      document.getElementById('logout-form').submit();">
@@ -176,18 +176,7 @@
         </nav>
     </div>
 
-    {{-- <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" align="right">
-        <a class="dropdown-item" href="{{ route('logout') }}"
-            onclick="event.preventDefault();
-                     document.getElementById('logout-form').submit();">
-            {{ __('Logout') }}
-        </a>
-
-        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-            @csrf
-        </form>
-    </div> --}}
-
+    
 
     <div class="row">
         <div class="leftcolumn">
@@ -525,7 +514,7 @@
                                 </div>
                             </div>
 
-                            <div class="formbold-mb-5">
+                            <!-- <div class="formbold-mb-5">
                                 <b>DATA PENDIDIKAN</b>
                             </div>
 
@@ -605,7 +594,7 @@
 
 
 
-                            </div>
+                            </div> -->
                             <br><br>
 
                             <button class="formbold-btn">Submit</button>

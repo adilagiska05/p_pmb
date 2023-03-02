@@ -4,6 +4,7 @@ use App\Http\Controllers\ProdiController;
 use App\Http\Controllers\InformasiController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PendaftarController;
+use App\Http\Controllers\BiodataController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,13 +39,16 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'isAdmin:admin']], f
     Route::get('profile', function () {
         return view('profile');
     });
-
+   
     Route::resource('prodi', ProdiController::class);
     Route::resource('informasi', InformasiController::class);
     Route::resource('pendaftar', PendaftarController::class);
     Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+});
 
+Route::get('biodata1', function () {
+    return view('biodata.index');
 });
 
 Route::get('/admin_user', function () {
@@ -52,12 +56,8 @@ Route::get('/admin_user', function () {
 });
 
 
-Route::get('/biodata', function () {
+Route::get('biodata', function () {
     return view('layouts.backuser.biodata1');
-});
-
-Route::get('user', function () {
-    return view('layouts.user');
 });
 
 
